@@ -21,9 +21,9 @@ export default async function Home() {
       <div className="w-full flex flex-col gap-3">
         <Banner movies={bannerMovies} />
         <div className="w-[90%] mx-auto flex flex-col gap-3 pb-10">
-          <MovieRow movies={popularMovies} categoryTitle="Popular on MovieDashboard" />
-          <MovieRow movies={topRatedMovies} categoryTitle="Top Rated" />
-          <MovieRow movies={upcomingMovies} categoryTitle="Coming Soon" />
+          <MovieRow movies={popularMovies} categoryTitle="Popular Movies" />
+          <MovieRow movies={topRatedMovies} categoryTitle="Top Rated Movies" />
+          <MovieRow movies={upcomingMovies} categoryTitle="Upcoming Movies" />
         </div>
       </div>
     </div>
